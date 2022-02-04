@@ -11,10 +11,11 @@ const Features = () => {
         <h4 className="mb-12 text-black text-2xl font-normal w-10/12 md:w-5/12 text-center md:mb-0 text-gray-800">
           Most calendars are designed for teams. 
         </h4>
-        <h4 className="hidden md:text-black md:text-2xl md:font-normal md:w-5/12 md:text-center md:mb-14"> 
+        <h4 className="hidden md:block md:text-black md:text-2xl md:font-normal md:w-5/12 md:text-center md:mb-14"> 
           Slate is designed for freelancers
         </h4>
       </article>
+      <div className="flex flex-col-reverse md:block">
       <article>
         <ul className="flex flex-col md:flex-row md:justify-evenly text-black">
           <li className="mb-8 flex flex-col justify-center items-center md:mb-0">
@@ -44,8 +45,9 @@ const Features = () => {
         </ul>
       </article>
       <div className="w-full h-full mt-16 flex justify-center items-center mb-24"> 
-      <video  className="custom_video w-8/12 rounded-md shadow-gray-500 shadow-md">
+      <video  className="custom_video md:w-8/12 rounded-md shadow-gray-500 shadow-sm md:shadow-md">
       </video>
+      </div>
       </div>
     </section>
   );

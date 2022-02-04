@@ -6,8 +6,8 @@ import InstaIcon from '../assets/img/instagram.png';
 const NavBar = () => {
   const options = ["Home", "Product", "Pricing", "About", "Contact"];
   return (
-    <nav className="flex flex-row items-center  w-full px-24 pt-10">
-      <ul className="flex flex-row justify-start items-center ml-36">
+    <nav className="hidden md:flex md:flex-row md:items-center w-full md:px-24 md:pt-10">
+      <ul className="flex flex-row  justify-start items-center ml-36">
         {options.map((opt, index) => {
           return <li key={index} className="text-white font-black text-xs mx-3 without_filters">{opt}</li>;
         })}
