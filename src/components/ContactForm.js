@@ -11,12 +11,12 @@ import PhoneIcon from "../assets/img/phone_blue.png";
 const ContactForm = () => {
   return (
     <section className="flex flex-col px-16 mb-10">
-      <article className="flex flex-col justify-center items-center">
-        <h2 className="text-black text-5xl font-normal mb-5">Contact Us</h2>
-        <h4 className="text-black text-2xl font-normal w-5/12 text-center">
+      <article className="flex flex-col justify-center  items-center">
+        <h2 className="text-black text-5xl font-normal mb-12 md:mb-5">Contact Us</h2>
+        <h4 className="mb-12 md:mb-0 text-black text-2xl font-normal  w-10/12 md:w-5/12 text-center text-gray-800">
           Most calendars are designed for teams.
         </h4>
-        <h4 className="text-black text-2xl font-normal w-5/12 text-center mb-14">
+        <h4 className="hidden md:text-black md:text-2xl md:font-normal md:w-5/12 md:text-center md:mb-14">
           Slate is designed for freelancers
         </h4>
       </article>
@@ -36,6 +36,7 @@ const ContactForm = () => {
           <textarea
             className="mt-4 bg-slate-200 p-3 h-48 w-full text-black focus:outline-none focus:shadow focus:shadow-slate-500"
             placeholder="Your message"
+            
           />
           <div className="flex justify-start w-full">
             <button className="btn_try mt-2 py-2 px-9">Send</button>
@@ -73,9 +74,9 @@ const ContactForm = () => {
             </li>
           </ul>
 
-          <div className=" w-4/5 h-3/5">
+          <div className="hidden md:w-4/5 md:h-3/5">
             <MapContainer
-              className="w-full h-full"
+              className="hidden md:w-full md:h-full"
               center={[37.7747126, -122.4341086]}
               zoom={13}
               scrollWheelZoom={false}

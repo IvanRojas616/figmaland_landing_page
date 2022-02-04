@@ -11,10 +11,9 @@ body {
   width: 100%;
 }
 .base { 
-  background-image: url("https://s3-alpha-sig.figma.com/img/85c4/0041/80b7ece24a3d47292461f8e199ffdd36?Expires=1644796800&Signature=hNXCSesX7rbHm1SQl3vynD9Yr0DFcec613ZIDT1AAHUArlo3sza74K583lhXT8Zd3ecp7iokPv-dAq9wbQLXgcUYaqMca0c2z2J8BVOGGnPbutTQTl4VHVSlZfJrnsJA2WJuBCej0wb31qi5XmyxxjDyRkxl7fQdFsvMKJGI~is13eMpPzx~1twd3Rjvlnz253gdOCXm5gqE7P-7vUwICge5N9TOCMmUewQdMQGHhB~L~8emwp6i08iroza77611Keuh3Ny9zV0bgSc3oWD5eKORIMyzumOMDk4c~R-u-h-5iKHu71u4mI7Lt39H13FhLg4LqyEgILSPgiohS7jeDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-  background-size: cover;
-  background-position: 50% 50%;
+  background-image: url('./assets/img/background_modified.jpeg');
   background-repeat: no-repeat;
+  background-size: cover;
   filter: brightness(70%) contrast(125%);
   height: 100%;
   width: 100%;
@@ -28,6 +27,7 @@ body {
   color: rgba(255, 255, 2555, 1);
   filter:brightness(200%); 
 }
+
 
 .without_filters{
   filter:none
@@ -48,4 +48,14 @@ body {
   border-radius: 0.5rem;
   background-size: cover;
 }
-  
+
+textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 600px){
+  header.base{
+    background-image: url('./assets/img/background_mobile.jpeg');
+    background-position: 55% 10%;
+  }
+}  

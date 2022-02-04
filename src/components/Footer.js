@@ -10,8 +10,8 @@ const Footer = () => {
   const secondColNames = ["Tomothy", "Eleanor Edwards", "Ted Robertson", "Annette Russell","Jennie Mckinney", "Gloria Richards"];
   const thirdColNames = ["Jane Black", "Philip Jones", "Product", "Colleen Russell", "Marvin Hawkins", "Bruce Simmmons"];
   return (
-    <footer style={{background: "#252B42",}}className="flex flex-row justify-center py-16 items-center">
-      <div className="flex">
+    <footer style={{background: "#252B42",}} className="flex flex-col md:flex-row justify-center py-16 items-center">
+      <div className="flex flex-col md:flex-row">
       <ul className="mx-12"><LittleList names={firstColNames}/></ul>
       <ul className="mx-12"><LittleList names={secondColNames}/></ul>
       <ul className="mx-12"><LittleList names={thirdColNames}/></ul>
