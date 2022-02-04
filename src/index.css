@@ -1,13 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 2555, 1);
+  height: 100%;
+  width: 100%;
+}
+.base { 
+  background-image: url("https://s3-alpha-sig.figma.com/img/85c4/0041/80b7ece24a3d47292461f8e199ffdd36?Expires=1644796800&Signature=hNXCSesX7rbHm1SQl3vynD9Yr0DFcec613ZIDT1AAHUArlo3sza74K583lhXT8Zd3ecp7iokPv-dAq9wbQLXgcUYaqMca0c2z2J8BVOGGnPbutTQTl4VHVSlZfJrnsJA2WJuBCej0wb31qi5XmyxxjDyRkxl7fQdFsvMKJGI~is13eMpPzx~1twd3Rjvlnz253gdOCXm5gqE7P-7vUwICge5N9TOCMmUewQdMQGHhB~L~8emwp6i08iroza77611Keuh3Ny9zV0bgSc3oWD5eKORIMyzumOMDk4c~R-u-h-5iKHu71u4mI7Lt39H13FhLg4LqyEgILSPgiohS7jeDg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  filter: brightness(70%) contrast(125%);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.p_principal{
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgba(255, 255, 2555, 1);
+  filter:brightness(200%); 
 }
+
+.without_filters{
+  filter:none
+}
+
+.btn_try{
+  background: #2091F9;
+  border-radius: 2em;
+  transition: 800ms;  
+} 
+.btn_try:hover{
+  transform: scale(1.2); 
+  transition: 800ms;
+}
+
+.custom_video{
+  background: url('https://s3-alpha-sig.figma.com/img/7329/9689/76e4623e6d0444b732092b058eb748fe?Expires=1644796800&Signature=Z3hs1WHfFzlWpliSi-3PD5W2AcSghQU4zDpkt28bcceB4Ae73YrJ9fO3hYY4u3P5OmO9HdUAchKCeH9Fssbn5VTNwvJQUsVHVaIa-jSBC1HMee20HJUYBT5a6EZFJjqAAqvaN~9sD2WQ4J4BMK1xTBKlov4f7MpaCjtYE6X-DOcfHVc3UNpxnk9dGv06YrS7RYiNj4tkE50YTz~Ry8Vy0FycHgxyBD8IDhIIz9Lw~qSAR77gwVmcBpqp5haoq5UNyQzfTgZf137CmUvP1YMMHrJ6~muFpYDNDU031zHRpuddmsBYToZEBFhHbSIT-SYcFnd8GnCy3NPnWFkZovR44g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  border-radius: 0.5rem;
+  background-size: cover;
+}
+  
