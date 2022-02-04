@@ -5,8 +5,8 @@ import ResponsiveNavbar from "./ResponsiveNavbar";
 const Header = () => {
   return (
     <header className="base">
-      <ResponsiveNavbar/>
-      <NavBar/>
+      <ResponsiveNavbar />
+      <NavBar />
       <section className="flex flex-col justify-center items-center w-full h-screen">
         <h1 className="p_principal text-white md:pt-5 w-4/5 md:w-2/5 text-center">
           The best products start with Figma
@@ -20,7 +20,7 @@ const Header = () => {
             Slate is designed for freelancers
           </span>
         </p>
-        <button className="btn_try mt-10 px-10 md:px-5 py-2 md:py-3">
+        <button className="btn_try mt-1 md:mt-10 px-10 md:px-5 py-2 md:py-3">
           Try for Free
         </button>
       </section>
