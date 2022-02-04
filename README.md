@@ -4,7 +4,7 @@ This project was created with the tool Create React App and TailwindCSS.
 
 Here you can see the landing page hosted in Vercel:
 
-- Falta actualizar el link de vercel
+[https://figmaland-landing-ivanrojas616.vercel.app/](https://figmaland-landing-ivanrojas616.vercel.app/)
 *** 
 
 ## Available Scripts
