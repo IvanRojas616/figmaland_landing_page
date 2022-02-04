@@ -43,9 +43,9 @@ const ContactForm = () => {
             <button className="btn_try mt-2 py-2 px-9">Send</button>
           </div>
         </form>
-        <div className="flex flex-col-reverse md:flex-col justify-center items-center w-full md:w-8/12 ml-10">
-          <ul className="flex flex-col md:flex-row text-black w-full mt-10 mb-5 md:mr-20">
-            <li className="flex flex-row md:flex-col justify-start md:justify-center items-center pl-2 md:pl-0 mb-2 md:mb-0">
+        <div className="flex flex-col-reverse md:flex-col justify-center items-center w-full md:w-8/12 md:ml-10">
+          <ul className="flex flex-col md:flex-row text-black w-full mt-10 mb-5 md:mr-20 ">
+            <li className="flex flex-row md:flex-col md:justify-center items-center pl-2 md:pl-0 mb-2 md:mb-0">
               <img
                 src={PinIcon}
                 alt="pinner"
@@ -61,7 +61,9 @@ const ContactForm = () => {
                 alt="phone"
                 className="mx-2 w-4 h-5 without_filters mb-2"
               />
-              <h5 className="text-xs text-left md:text-center w-4/5">6386 (843) 555-0130</h5>
+              <h5 className="text-xs text-left md:text-center w-4/5">
+                6386 (843) 555-0130
+              </h5>
             </li>
             <li className="flex flex-row md:flex-col justify-start md:justify-center items-center pr-5 mb-2 md:mb-0">
               <img
@@ -88,7 +90,7 @@ const ContactForm = () => {
               />
             </MapContainer>
           </div>
-          <ul className="flex flex-row justify-center md:justify-start pr-20 md:pl-6 w-full mt-10">
+          <ul className="flex flex-row justify-center md:justify-start pr-5 md:pl-6 w-full mt-10">
             <li>
               <img
                 src={TwitterIcon}

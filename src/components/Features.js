@@ -45,7 +45,7 @@ const Features = () => {
         </ul>
       </article>
       <div className="w-full h-full mt-16 flex justify-center items-center mb-24"> 
-      <video  className="custom_video md:w-8/12 rounded-md shadow-gray-500 shadow-sm md:shadow-md">
+      <video  className="custom_video w-full h-7/12 md:w-8/12 rounded-md shadow-gray-500 shadow-sm md:shadow-md">
       </video>
       </div>
       </div>

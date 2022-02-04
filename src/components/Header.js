@@ -1,9 +1,12 @@
 import React from "react";
 import NavBar from "./NavBar";
+import ResponsiveNavbar from "./ResponsiveNavbar";
+
 const Header = () => {
   return (
     <header className="base">
-      <NavBar />
+      <ResponsiveNavbar/>
+      <NavBar/>
       <section className="flex flex-col justify-center items-center w-full h-screen">
         <h1 className="p_principal text-white md:pt-5 w-4/5 md:w-2/5 text-center">
           The best products start with Figma
